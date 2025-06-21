@@ -16,6 +16,7 @@ if st.button("Get Answer"):
         with st.spinner("Thinking..."):
             try:
                 response = requests.post("http://localhost:10000/query", json={"question": question})
+                #response = requests.post("https://smart-faq-backend-t9th.onrender.com", json={"question": question})
                 if response.status_code == 200:
                     answer = response.json()["answer"]
                     st.success("💬 Answer:")
