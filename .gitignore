@@ -1,0 +1,31 @@
+# Ignore Python virtual environments
+venvF/
+venvB/
+backend/venvB/
+frontend/venvF/
+smart_faq_chatbot/frontend/venvF/
+smart_faq_chatbot/backend/venvB/
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment variables
+.env
+backend/.env
+
+# FAISS vector store (auto-generated)
+backend/vector_store/
+
+# Ignore Streamlit config & secrets
+frontend/.streamlit/secrets.toml
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
