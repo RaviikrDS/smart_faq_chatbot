@@ -131,7 +131,7 @@ http://localhost:8501
 
 ## 🌐 Deployment
 
-- 📦 Backend: Deploy on [Render](https://render.com) or [Railway](https://railway.app)
+- 📦 Backend: Deploy on [Render](https://render.com)
 - 🎯 Frontend: Deploy on [Streamlit Cloud](https://streamlit.io/cloud)
 - 🔐 Add secrets for keys or future LLMs via `.env` or cloud env settings
 
